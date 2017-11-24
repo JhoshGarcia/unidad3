@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+""" como siempre imprtamos las herramienta que vamos a ocupar """
 from contextlib import contextmanager
 import os
 import sys
 import time
 import abc
 
-
+"""como siempres de se declaran las clases que vamos a nesesitar y definimos los parametros """
 class Handler(object):
     __metaclass__ = abc.ABCMeta
 
