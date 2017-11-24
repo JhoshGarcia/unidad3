@@ -1,14 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
-
-
-class Catalog(object):
-    """catalog of multiple static methods that are executed depending on an init
-
-    parameter
+ """primero declaramos las clase catalog para despues agregar parametros con  init
     """
+class Catalog(object):
+   
 
     def __init__(self, param):
 
@@ -162,4 +158,4 @@ if __name__ == "__main__":
 
     main()
 
-
+"""jorge miguel garcia"""
