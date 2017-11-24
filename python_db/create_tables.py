@@ -1,6 +1,6 @@
 import psycopg2
 from config import config
-
+#se envian los datos para procesar y se crean las llaves
 
 def create_table() -> object:
     """"Create tables in the Postgresql in the Database"""
@@ -47,3 +47,6 @@ def create_table() -> object:
 
 if __name__ == '__main__':
     create_table()
+
+	
+	#Jorge Miguel Garcia Martinez

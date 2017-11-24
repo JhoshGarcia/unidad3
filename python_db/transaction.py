@@ -1,6 +1,7 @@
+#se importan el postgresql y las configuraciones
 import psycopg2
 from config import config
-
+#definimos las variables 
 
 def add_part(part_name, vendor_list):
     # statement for inserting a new row into the parts table
@@ -37,3 +38,6 @@ if __name__ == '__main__':
     add_part('Antenna', (6, 7))
     add_part('Home Button', (1, 5))
     add_part('LTE Modem', (1, 5))
+	
+	
+#Jorge Miguel Garcia Martinez

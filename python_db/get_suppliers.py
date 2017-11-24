@@ -1,3 +1,4 @@
+#se importan las herramientas nesesarias
 import psycopg2
 from config import config
 
@@ -35,3 +36,6 @@ def get_part_vendors():
             conn.close()
 if __name__ == '__main__':
     get_part_vendors()
+	
+	
+#Jorge Miguel Garcia Martinez

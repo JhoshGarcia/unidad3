@@ -1,6 +1,6 @@
 import psycopg2
 from config import config
-
+#primero creamos las tablas  y les agregamos datos 
 def create_tables():
     """Create tables in the Postgresql Database"""
     commands=(
@@ -51,3 +51,6 @@ def create_tables():
 
 if __name__ == '__main__':
     create_tables()
+	
+	
+	#Jorge Miguel Garcia Martinez

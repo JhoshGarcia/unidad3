@@ -34,3 +34,6 @@ def delete_part(part_id):
 if __name__ == '__main__':
     deleted_rows = delete_part(7)
     print('The number of deleted rows: ', deleted_rows)
+	
+	
+#Jorge Miguel Garcia Martinez

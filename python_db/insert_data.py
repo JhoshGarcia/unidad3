@@ -1,7 +1,7 @@
 import psycopg2
 from config import config
 
-
+# Aqui se procesa los datos 
 def insert_vendor(vendor_name):
     """ Insert a new vendor into the vendors table"""
 
@@ -66,3 +66,5 @@ if __name__ == '__main__':
                         ('Dynacast Inyrrnational Inc.',),
                         ('Foster Electric Co. Ltd.',),
                         ('Murata Manufacturing Co. Ltd.',)])
+						
+#Jorge Miguel Garcia Martinez

@@ -1,3 +1,4 @@
+#importas postgres y las configuraciones 
 import psycopg2
 from config import config
 
@@ -32,4 +33,5 @@ if __name__ == '__main__':
     write_blob(7, 'images/jaguar-f-type-v6-s-review-2013_59.jpg', 'jpg')
     write_blob(8, 'images/simtray.jpg', 'jpg')
 
+	#Jorge Miguel Garcia Martinez
 

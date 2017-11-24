@@ -1,7 +1,7 @@
 import psycopg2
 from config import config
 
-
+#se definen los parametros
 def update_vendor(vendor_id, vendor_name):
     """ update vendor name based on the vendor id"""
     sql = """ UPDATE vendors SET vendor_name = %s WHERE vendor_id = %s"""
@@ -27,4 +27,7 @@ def update_vendor(vendor_id, vendor_name):
 
 
 if __name__ == '__main__':
-    print(update_vendor(1, '3M Corpwdfdddddddddddddddddddddddscdd.'))
+    print(update_vendor(1, '3M Corpwd.'))
+	
+
+#Jorge Miguel Garcia Martinez

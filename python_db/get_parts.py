@@ -1,4 +1,5 @@
 #!/usr/bin/python
+
 import psycopg2
 from config import config
 
@@ -18,7 +19,7 @@ END; $$
  
 LANGUAGE plpgsql;"""
 
-
+#definimos variables y parametros con las variantes  nesesarias para get_parts
 def get_parts(vendor_id):
     """ get parts provided by a vendor specified by the vendor_id """
     conn = None
@@ -48,3 +49,6 @@ def get_parts(vendor_id):
 
 if __name__ == '__main__':
     get_parts(1)
+
+	
+#Jorge Miguel Garcia Martinez

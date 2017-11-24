@@ -1,7 +1,7 @@
 import psycopg2
 from config import config
 
-
+# se agregan los parametros para leer los datos tipo BLOB
 def read_blob(part_id, path_to_dir):
     """ read BLOB data from a table """
     conn = None
@@ -28,3 +28,4 @@ def read_blob(part_id, path_to_dir):
     finally:
         if conn is not None:
             conn.close()
+#Jorge Miguel Garcia Martinez
