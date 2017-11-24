@@ -4,7 +4,8 @@ from __future__ import print_function
 import os
 from os.path import lexists
 
-
+ """ declaramos las clase catalog para despues agregar parametros con  init
+    """
 class MoveFileCommand(object):
 
     def __init__(self, src, dest):
@@ -50,4 +51,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-
+"""jorge miguel garcia"""

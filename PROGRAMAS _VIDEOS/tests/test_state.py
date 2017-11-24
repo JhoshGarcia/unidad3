@@ -50,3 +50,6 @@ class RadioTest(unittest.TestCase):
         state = self.radio.state.name
         expected_state_name = 'AM'
         self.assertEqual(state, expected_state_name)
+
+		
+		#Jorge Miguel Garcia Martinez

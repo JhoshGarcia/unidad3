@@ -31,3 +31,5 @@ class MidnightTimeProvider(object):
     def now(self):
         current_time_is_always_midnight = "24:01"
         return current_time_is_always_midnight
+		
+""" Jorge Miguel Garcia Martinez"""

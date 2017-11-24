@@ -60,3 +60,6 @@ class TestRunnerFacilities(unittest.TestCase):
         self.assertEqual(output, str(self.average_result_tc1 + '\n\n' +
                          self.average_result_tc2 + '\n\n' +
                          self.average_result_tc3))
+
+						 
+						 #Jorge Miguel Garcia Martinez

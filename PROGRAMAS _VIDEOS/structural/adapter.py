@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#se especifican las clases Dog, Cat, Human,Car,Adapter y se le agregar las variables y las ccion por concecuente.
 class Dog(object):
 
     def __init__(self):
@@ -102,3 +102,4 @@ def main():
 if __name__ == "__main__":
     main()
 
+	#Jorge Miguel Garcia Martinez

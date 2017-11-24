@@ -35,3 +35,5 @@ class TestDynamicExpanding(unittest.TestCase):
         for _ in range(2):
             self.assertEqual(self.John.parents, "Father and mother")
         self.assertEqual(self.John.call_count2, 1)
+		
+			#Jorge Miguel Garcia Martinez

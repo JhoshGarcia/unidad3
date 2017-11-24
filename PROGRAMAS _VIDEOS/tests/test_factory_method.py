@@ -33,3 +33,4 @@ class TestLocalizer(unittest.TestCase):
 
     def test_bear_greek_localization(self):
         self.assertEqual(self.g.get('bear'), 'bear')
+#Jorge Miguel Garcia Martinez

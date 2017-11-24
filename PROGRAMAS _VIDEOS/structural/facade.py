@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#importas las print_function
 from __future__ import print_function
 import time
 
 SLEEP = 0.1
 
-
+#declara las claes y los parametros
 # Complex Parts
 class TC1:
 
@@ -68,3 +68,4 @@ if __name__ == '__main__':
     testrunner = TestRunner()
     testrunner.runAll()
 
+#Jorge miguel Garcia Martinez

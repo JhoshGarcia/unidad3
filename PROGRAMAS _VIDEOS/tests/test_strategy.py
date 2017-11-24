@@ -19,3 +19,6 @@ class StrategyTest(unittest.TestCase):
         # byte representation required due to EOF returned subprocess
         expected_output_as_bytes = expected_output.encode(encoding='UTF-8')
         self.assertEqual(output, expected_output_as_bytes)
+
+		
+		#Jorge Miguel Garcia Martinez

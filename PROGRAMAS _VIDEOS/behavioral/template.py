@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""http://ginstrom.com/scribbles/2007/10/08/design-patterns-python-style/
 
-An example of the Template pattern in Python"""
 
 ingredients = "spam eggs apple"
 line = '-' * 10
@@ -58,52 +56,4 @@ templates = [make_template(s, g, a)
 for template in templates:
     template()
 
-### OUTPUT ###
-# spam
-# ----------
-# eggs
-# ----------
-# apple
-# ----------
-# apple
-# ----------
-# eggs
-# ----------
-# spam
-# ----------
-# maps
-# ----------
-# sgge
-# ----------
-# elppa
-# ----------
-# elppa
-# ----------
-# sgge
-# ----------
-# maps
-# ----------
-# ['s', 'p', 'a', 'm']
-# ----------
-# ['e', 'g', 'g', 's']
-# ----------
-# ['a', 'p', 'p', 'l', 'e']
-# ----------
-# ['a', 'p', 'p', 'l', 'e']
-# ----------
-# ['e', 'g', 'g', 's']
-# ----------
-# ['s', 'p', 'a', 'm']
-# ----------
-# ['m', 'a', 'p', 's']
-# ----------
-# ['s', 'g', 'g', 'e']
-# ----------
-# ['e', 'l', 'p', 'p', 'a']
-# ----------
-# ['e', 'l', 'p', 'p', 'a']
-# ----------
-# ['s', 'g', 'g', 'e']
-# ----------
-# ['m', 'a', 'p', 's']
-# ----------
+"""jorge miguel garcia"""

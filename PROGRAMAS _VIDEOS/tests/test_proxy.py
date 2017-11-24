@@ -98,3 +98,5 @@ This Sales Manager will not talk to you whether he/she is busy or not\n'
         cls.assertEqual(print_output, expected_print_output)
         expected_execution_time = 1
         cls.assertEqual(int(execution_time*10), expected_execution_time)
+		
+		#Jorge Miguel Garcia Martinez

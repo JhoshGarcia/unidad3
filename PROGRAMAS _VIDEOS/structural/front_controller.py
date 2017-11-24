@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#esta es la seccion de las clases
 class MobileView(object):
-
+# y esta subseccion es para los parametros 
     def show_index_page(self):
         print('Displaying mobile index page')
 
@@ -63,5 +63,7 @@ if __name__ == '__main__':
 
     front_controller.dispatch_request(Request('desktop'))
     front_controller.dispatch_request('mobile')
+	
+#Jorge Miguel Garcia Martinez
 
 

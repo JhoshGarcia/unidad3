@@ -42,8 +42,9 @@ class HsmMethodTest(unittest.TestCase):
 
 
 class StandbyStateTest(unittest.TestCase):
-    """ Exemplary 2nd level state test class (here: Standby state). Add missing
-    state test classes... """
+    
+"""Clase ejemplar de prueba de estado de segundo nivel (aquí: estado de espera). Agregar faltante
+    clases de prueba estatales ... """
 
     @classmethod
     def setUpClass(cls):
@@ -89,3 +90,7 @@ class StandbyStateTest(unittest.TestCase):
         with cls.assertRaises(UnsupportedTransition) as context:
             cls.hsm.on_message('operator inservice')
         cls.assertEqual(isinstance(cls.hsm._current_state, Standby), True)
+		
+		
+		
+	#Jorge Miguel Garcia Martinez

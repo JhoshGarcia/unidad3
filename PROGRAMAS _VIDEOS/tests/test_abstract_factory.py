@@ -63,3 +63,5 @@ class PetTest(unittest.TestCase):
         for name, expected_speech in test_cases:
             pet = Pet.from_name(name)
             self.assertEqual(pet.speak(), expected_speech)
+
+			#Jorge Miguel Garcia Martinez

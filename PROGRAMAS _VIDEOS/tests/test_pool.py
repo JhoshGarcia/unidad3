@@ -50,8 +50,4 @@ class TestNaitivePool(unittest.TestCase):
         self.assertTrue(sample_queue.empty())
         
 
-    # sample_queue.put('sam')
-    # test_object(sample_queue)
-    # print('Outside func: {}'.format(sample_queue.get()))
-
-    # if not sample_queue.empty():
+   	#Jorge Miguel Garcia Martinez

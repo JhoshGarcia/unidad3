@@ -8,9 +8,10 @@ class RegistryHolder(type):
 
     def __new__(cls, name, bases, attrs):
         new_cls = type.__new__(cls, name, bases, attrs)
-        """
-            Here the name of the class is used as key but it could be any class
-            parameter.
+       
+"""
+            Aquí el nombre de la clase se usa como clave pero podría ser cualquier clase
+            parámetro.
         """
         cls.REGISTRY[new_cls.__name__] = new_cls
         return new_cls
@@ -22,10 +23,11 @@ class RegistryHolder(type):
 
 class BaseRegisteredClass(object):
     __metaclass__ = RegistryHolder
-    """
-        Any class that will inherits from BaseRegisteredClass will be included
-        inside the dict RegistryHolder.REGISTRY, the key being the name of the
-        class and the associated value, the class itself.
+    
+"""
+        Se incluirá cualquier clase que herede de BaseRegisteredClass
+        dentro del dict RegistryHolder.REGISTRY, la clave es el nombre del
+        clase y el valor asociado, la clase misma.
     """
     pass
 
@@ -42,10 +44,4 @@ if __name__ == "__main__":
     print("After subclassing: ")
     for k in RegistryHolder.REGISTRY:
         print(k)
-
-###  OUTPUT ###
-# Before subclassing:
-# BaseRegisteredClass
-# After subclassing:
-# BaseRegisteredClass
-# ClassRegistree
+"""jorge miguel garcia"""

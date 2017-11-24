@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#se seccionan las clases Data,BusinessLogic,Ui con los parametros que se han mencionado
 
 class Data(object):
     """ Data Store Class """

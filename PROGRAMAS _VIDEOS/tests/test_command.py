@@ -51,3 +51,6 @@ class CommandTest(unittest.TestCase):
         Remove the temporary directory /test_command and its content.
         """
         shutil.rmtree('tests/test_command')
+		
+		
+#Jorge Miguel Garcia Martinez

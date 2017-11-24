@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#las definen las clases DrawingAPI1, DrawingAPI2, CircleShape con sus respectivos parametros definidos
 
 # ConcreteImplementor 1/2
 class DrawingAPI1(object):
@@ -48,4 +48,6 @@ def main():
 if __name__ == '__main__':
     main()
 
+	
+	#Jorge Miguel Garcia Martinez
 

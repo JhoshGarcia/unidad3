@@ -32,3 +32,5 @@ class TestFlatBuilding(unittest.TestCase):
 
     def test_num_floor_in_house(self):
         self.assertEqual(self.building.floor, 'More than One')
+		
+#Jorge Miguel Garcia Martinez

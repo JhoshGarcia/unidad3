@@ -4,7 +4,8 @@
 import random
 import time
 
-
+ """primero declaramos las clase catalog para despues agregar parametros con  init
+    """
 class TC:
 
     def __init__(self):
@@ -110,9 +111,9 @@ if __name__ == '__main__':
     tm.setDB(db)
     reporter.setTM(tm)
     db.setTM(tm)
-    # For simplification we are looping on the same test.
-    # Practically, it could be about various unique test classes and their
-    # objects
+ 
+# Para simplificar, estamos haciendo un bucle en la misma prueba.
+    # Prácticamente, podría tratarse de varias clases de prueba únicas y sus Objetos
     for i in range(3):
         tc = TC()
         tc.setTM(tm)
@@ -120,5 +121,7 @@ if __name__ == '__main__':
         tc.setup()
         tc.execute()
         tc.tearDown()
+		
+	"""jorge miguel garcia"""
 
 

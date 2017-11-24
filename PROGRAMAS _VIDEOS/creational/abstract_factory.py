@@ -7,7 +7,7 @@ import random
 
 class PetShop(object):
 
-    """A pet shop"""
+    """una tienda de mascotas"""
 
     def __init__(self, animal_factory=None):
         """pet_factory is our abstract factory.  We can set it at will."""
@@ -105,3 +105,4 @@ if __name__ == "__main__":
         pet = Pet.from_name(name0)
         print("{}: {}".format(name0, pet.speak()))
 
+"""jorge miguel garcia"""

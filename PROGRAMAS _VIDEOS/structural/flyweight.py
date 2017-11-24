@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+#Aqui esta la seccion donde se importan las herraminetas
 import weakref
 
+#esta parte van las clases 
 
 class FlyweightMeta(type):
-
+#aquie estan los parametros
     def __new__(mcs, name, parents, dct):
        
         dct['pool'] = weakref.WeakValueDictionary()
@@ -98,4 +99,4 @@ if __name__ == '__main__':
 
     del cm3
     assert len(instances_pool) == 0
-
+#Jorge Miguel Garcia Martinez

@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+#se agregan y definen las clases con susu parametros
 
 
 class TextTag(object):
@@ -34,4 +34,5 @@ if __name__ == '__main__':
     print("before:", simple_hello.render())
     print("after:", special_hello.render())
 
+	#Jorge Miguel Garcia Martinez
 

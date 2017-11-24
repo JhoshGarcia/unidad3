@@ -75,3 +75,5 @@ class AdapterTest(unittest.TestCase):
         expected_noise = "vroom!!!!!!!!!!"
 
         self.assertEqual(noise, expected_noise)
+
+		#Jorge Miguel Garcia Martinez

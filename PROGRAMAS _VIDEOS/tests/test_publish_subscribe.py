@@ -65,3 +65,6 @@ class TestProvider(unittest.TestCase):
             mock_subscriber1_run.assert_has_calls(expected_sub1_calls)
             expected_sub2_calls = [call('sub 2 msg 1'), call('sub 2 msg 2')]
             mock_subscriber2_run.assert_has_calls(expected_sub2_calls)
+
+			
+			#Jorge Miguel Garcia Martinez

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+#definimos la clase GraphSearch y definimoslos parametros del objeto
 class GraphSearch:
 
 
@@ -56,11 +56,13 @@ graph = {'A': ['B', 'C'],
          'F': ['C']
          }
 
-# initialization of new graph search object
+# inicialización del nuevo objeto de búsqueda de gráficos
 graph1 = GraphSearch(graph)
 
 
 print(graph1.find_path('A', 'D'))
 print(graph1.find_all_path('A', 'D'))
 print(graph1.find_shortest_path('A', 'D'))
+
+#Jorge Miguel Garcia Martinez
 

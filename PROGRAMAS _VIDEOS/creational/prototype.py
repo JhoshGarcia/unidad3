@@ -7,7 +7,8 @@ class Prototype(object):
     value = 'default'
 
     def clone(self, **attrs):
-        """Clone a prototype and update inner attributes dictionary"""
+       
+"""Clonar un prototipo y actualizar el diccionario de atributos internos"""
         # Python in Practice, Mark Summerfield
         obj = self.__class__()
         obj.__dict__.update(attrs)
@@ -20,15 +21,15 @@ class PrototypeDispatcher(object):
         self._objects = {}
 
     def get_objects(self):
-        """Get all objects"""
+        """obtenemos todos los objetos"""
         return self._objects
 
     def register_object(self, name, obj):
-        """Register an object"""
+        """registramos los objetos"""
         self._objects[name] = obj
 
     def unregister_object(self, name):
-        """Unregister an object"""
+        """y se Anular el registro de un objeto"""
         del self._objects[name]
 
 
@@ -48,4 +49,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-
+"""jorge miguel garcia"""

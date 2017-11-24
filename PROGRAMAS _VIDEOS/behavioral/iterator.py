@@ -4,7 +4,8 @@
 
 from __future__ import print_function
 
-
+ """se agrega parametros con  count_to
+    """
 def count_to(count):
     """Counts by word numbers, up to a maximum of five"""
     numbers = ["one", "two", "three", "four", "five"]
@@ -26,5 +27,6 @@ for number in count_to_five():
     print(number, end=' ')
 
 print()
+"""jorge miguel garcia"""
 
 

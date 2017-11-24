@@ -1,7 +1,8 @@
 #!/usr/bin/python
 # -*- coding : utf-8 -*-
+#se importa de datetime 
 import datetime
-
+#declaramos las clses con sus respectivas parametros
 class TimeDisplay(object):
 
     def __init__(self, time_provider):
@@ -14,10 +15,8 @@ class TimeDisplay(object):
 
 
 class ProductionCodeTimeProvider(object):
-    """
-    Production code version of the time provider (just a wrapper for formatting
-    datetime for this example).
-    """
+    
+"""Versión del código de producción del proveedor de tiempo (solo un contenedor para el formato de fecha y hora para este ejemplo)."""
 
     def now(self):
         current_time = datetime.datetime.now()
@@ -27,10 +26,13 @@ class ProductionCodeTimeProvider(object):
 
 
 class MidnightTimeProvider(object):
-    """
-    Class implemented as hard-coded stub (in contrast to configurable stub).
+    
+"""Clase implementada como stub codificado (a diferencia del stub configurable).
     """
 
     def now(self):
         current_time_is_always_midnight = "24:01"
         return current_time_is_always_midnight
+		
+		
+""" Jorge Miguel Garcia Martinez"""

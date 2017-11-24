@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+#importamos las herramientas que vamos a ocupar
 from __future__ import print_function
 import time
 
-
+# aqui van las clases
 class SalesManager:
     def talk(self):
         print("Sales Manager ready to talk")
@@ -13,7 +14,7 @@ class Proxy:
     def __init__(self):
         self.busy = 'No'
         self.sales = None
-
+#y aqui los parametros 
     def talk(self):
         print("Proxy checking for Sales Manager availability")
         if self.busy == 'No':
@@ -42,3 +43,5 @@ if __name__ == '__main__':
     p.talk()
     p.busy = 'Yes'
     p.talk()
+
+	#Jorge Miguel Garcia Mainez

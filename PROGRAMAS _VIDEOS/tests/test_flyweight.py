@@ -36,3 +36,5 @@ class TestCard(unittest.TestCase):
         c2 = Card('9', 'h')
         self.assertEqual(hasattr(c2, expected_attribute_name), True)
         self.assertEqual(c2.attr, expected_attribute_value)
+
+		#Jorge Miguel Garcia Martinez

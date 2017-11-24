@@ -23,3 +23,5 @@ class BorgTest(unittest.TestCase):
 
     def test_instances_shall_have_own_ids(self):
         self.assertNotEqual(id(self.b1), id(self.b2), id(self.ib1))
+		
+#Jorge Miguel Garcia Martinez

@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#importamos las herramientas nesesaras
 import abc
 import random
-
+#declaramos las clases y definimos los parametros 
 
 class Blackboard(object):
 
@@ -100,3 +100,5 @@ if __name__ == '__main__':
 
     from pprint import pprint
     pprint(contributions)
+	
+	#Jorge Miguel Garcia Martinez

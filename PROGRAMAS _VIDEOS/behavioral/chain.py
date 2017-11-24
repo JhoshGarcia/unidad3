@@ -159,4 +159,4 @@ if __name__ == "__main__":
     # lets check which is faster
     print(client1_delegate._time, client2_delegate._time)
 
-
+"""jorge miguel garcia"""

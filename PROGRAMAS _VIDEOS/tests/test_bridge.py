@@ -43,3 +43,6 @@ class BridgeTest(unittest.TestCase):
             sh2.scale(2)
             cls.assertEqual(mock_sh1_scale_circle.call_count, 1)
             cls.assertEqual(mock_sh2_scale_circle.call_count, 1)
+			
+			
+	#Jorge Miguel Garcia Martinez

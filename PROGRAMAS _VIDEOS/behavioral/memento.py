@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+"""  imprtamos las herramienta que vamos a ocupar """
 from copy import copy
 from copy import deepcopy
 
@@ -106,6 +106,8 @@ if __name__ == '__main__':
 
         traceback.print_exc(file=sys.stdout)
     print(num_obj)
+	
+	"""jorge miguel garcia"""
 
 
 

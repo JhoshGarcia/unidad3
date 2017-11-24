@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#en esta seccion van las clases Graphic y sus parametros
 class Graphic:
     def render(self):
         raise NotImplementedError("You should implement this.")
@@ -49,4 +49,7 @@ if __name__ == '__main__':
     graphic.add(graphic2)
 
     graphic.render()
+	
+	
+	#Jorge Miguel Garcia Martinez
 

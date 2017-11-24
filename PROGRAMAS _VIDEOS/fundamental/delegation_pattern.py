@@ -1,15 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#clasificacion de clases sobre los objetos
 class Delegator(object):
-    """
-    >>> delegator = Delegator(Delegate())
-    >>> delegator.do_something("nothing")
-    'Doing nothing'
-    >>> delegator.do_anything()
-
-    """
-
+    
+# se define los parametros
     def __init__(self, delegate):
         self.delegate = delegate
 
@@ -31,3 +25,4 @@ class Delegate(object):
 if __name__ == '__main__':
     import doctest
     doctest.testmod()
+#Jorge miguel gacia marinez

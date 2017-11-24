@@ -8,8 +8,9 @@ class Model(object):
         raise NotImplementedError
 
     def get(self, item):
-        """Returns an object with a .items() call method
-        that iterates over key,value pairs of its information."""
+        """
+Devuelve un objeto con un método de llamada .items ()
+        que itera sobre la clave, pares de valores de su información."""
         raise NotImplementedError
 
     @property
@@ -20,8 +21,9 @@ class Model(object):
 class ProductModel(Model):
 
     class Price(float):
-        """A polymorphic way to pass a float with a particular
-        __str__ functionality."""
+        """
+Una forma polimórfica de pasar un flotador con un particular
+        __str__ funcionalidad."""
 
         def __str__(self):
             first_digits_str = str(round(self, 2))
@@ -58,8 +60,7 @@ class View(object):
         raise NotImplementedError
 
     def show_item_information(self, item_type, item_name, item_info):
-        """Will look for item information by iterating over key,value pairs
-        yielded by item_info.items()"""
+        """Buscará información de elementos al iterar sobre la clave, pares de valores generados por iteminfo.items ()"""
         raise NotImplementedError
 
     def item_not_found(self, item_type, item_name):
@@ -123,4 +124,7 @@ if __name__ == '__main__':
     controller.show_item_information('eggs')
     controller.show_item_information('milk')
     controller.show_item_information('arepas')
+	
+	
+#Jorge Miguel Garcia Martinez
 

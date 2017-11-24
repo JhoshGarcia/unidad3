@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""
-Reference:
-http://www.slideshare.net/ishraqabd/publish-subscribe-model-overview-13368808
-Author: https://github.com/HanWenfang
-"""
+
 
 
 class Provider:
@@ -83,11 +79,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-### OUTPUT ###
-# jim got cartoon
-# jack got music
-# gee got movie
-# jim got cartoon
-# jim got cartoon
-# gee got movie
+"""jorge miguel garcia"""

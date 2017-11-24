@@ -61,3 +61,6 @@ class TestData(unittest.TestCase):
     def test_data_name_shall_be_changeable(cls):
         cls.sub.name = 'New Data Name'
         cls.assertEqual(cls.sub.name, 'New Data Name')
+
+		
+			#Jorge Miguel Garcia Martinez

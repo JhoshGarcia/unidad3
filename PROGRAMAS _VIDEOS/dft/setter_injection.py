@@ -1,8 +1,9 @@
 #!/usr/bin/python
 # -*- coding : utf-8 -*-
+#importamos el datatime
 import datetime
 
-
+#creamos las clases y definimos losparametros corespomdientes
 class TimeDisplay(object):
 
     def __init__(self):
@@ -33,3 +34,6 @@ class MidnightTimeProvider(object):
     def now(self):
         current_time_is_always_midnight = "24:01"
         return current_time_is_always_midnight
+
+		
+""" Jorge Miguel Garcia Martinez"""
