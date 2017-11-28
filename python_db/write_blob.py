@@ -30,8 +30,8 @@ def write_blob(part_id, path_to_file, file_extension):
 
 
 if __name__ == '__main__':
-    write_blob(7, 'images/jaguar-f-type-v6-s-review-2013_59.jpg', 'jpg')
-    write_blob(8, 'images/simtray.jpg', 'jpg')
+    write_blob(7, 'images/imagen1.jpg', 'jpg')
+    write_blob(8, 'images/imagen2.jpg', 'jpg')
 
 	#Jorge Miguel Garcia Martinez
 
